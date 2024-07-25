@@ -4,20 +4,52 @@ import Footer from '../Components/Footer'
 import '../App'; // Import the CSS file
 
 const Gallery = () => {
+  
+  
+  const images = [
+    'https://dostfoundation.org/wp-content/uploads/2022/09/2-3.jpg',
+    'https://dostfoundation.org/wp-content/uploads/2022/09/3-2.jpg',
+    'https://dostfoundation.org/wp-content/uploads/2022/09/4-2.jpg',
+    'https://dostfoundation.org/wp-content/uploads/2022/09/5-2.jpg',
+    'https://dostfoundation.org/wp-content/uploads/2022/09/1-2.jpg',
+    'https://dostfoundation.org/wp-content/uploads/2022/09/5-3.jpg'
+  ];
+  
+  
+  
   return (
     <>
       
     <Navbar/>
     
-    <div>
+    <div className='font-family!'>
 
-    <div className='border bg-blue-600 text-white text-center p-6 justify-center items-center flex flex-col'>
-    <div className="slim-line"></div>
+    <div className='border bg-green-600 text-white text-center p-6 justify-center items-center flex flex-col'>
+    
+    
 
       <h1 className='font-extrabold text-5xl p-3'>Gallery</h1>
       <p className='p-3 w-[70%]'>Dedicated to combating drug addiction, our agency provides comprehensive prevention, treatment, and rehabilitation services to foster healthier, drug-free communities."</p>
      </div>
 
+
+
+
+     <div className="container mx-auto py-8 flex justify-center">
+      <div className="grid grid-cols-1 w-[80%]  md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        {images.map((src, index) => (
+          <div key={index} className="relative overflow-hidden">
+            <a href={src} target="_blank" rel="noopener noreferrer">
+              <img
+                src={src}
+                alt={`Gallery Image ${index + 1}`}
+                className="w-full h-auto object-cover transition-transform duration-300 ease-in-out transform hover:scale-105"
+              />
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
 
 

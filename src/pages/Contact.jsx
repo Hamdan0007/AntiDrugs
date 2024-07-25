@@ -9,13 +9,16 @@ const Contact = () => {
       
     <Navbar/>
     
-    <div>
+    <div className='font-family!'>
 
-    <div className='border bg-blue-600 text-white text-center p-6 justify-center items-center flex flex-col'>
-    <div className="slim-line"></div>
+    <div className='border bg-green-600 text-white text-center p-6 justify-center items-center flex flex-col'>
+    <div className="slim-line bg-white h-4 rounded-lg flex justify-center items-center">
+    <div className="slim-line bg-green-600 h-4 rounded-lg">
+      </div>
+    </div>
 
       <h1 className='font-extrabold text-5xl p-3'>Contact Us</h1>
-      <p className='p-3 w-[70%]'>At [Anti-Drug Agency Name], we are committed to fighting drug addiction and supporting individuals on their journey to recovery. Our team of dedicated professionals is here to help you with any inquiries, provide assistance, and offer guidance."</p>
+      <p className='p-3 w-[70%] text-center'>At [Anti-Drug Agency Name], we are committed to fighting drug addiction and supporting individuals on their journey to recovery. Our team of dedicated professionals is here to help you with any inquiries, provide assistance, and offer guidance."</p>
      </div>
 
 
@@ -53,9 +56,8 @@ const Contact = () => {
         <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" defaultValue={""} />
       </div>
-      <button className="text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">Button</button>
-      <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
-    </div>
+      <button className="text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded text-lg">Button</button>
+     </div>
   </div>
 </section>
 
