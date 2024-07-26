@@ -21,7 +21,7 @@ const About = () => {
 
      
      <h1 className='font-extrabold text-5xl p-3'>About Us</h1>
-        <p className='p-3 w-[70%] text-center'>Dedicated to combating drug addiction, our agency provides comprehensive prevention, treatment, and rehabilitation services to foster healthier, drug-free communities."</p>
+        <p className='p-3 md-w-[70%] text-center'>Our agency is committed to fighting drug addiction with prevention, treatment, and rehabilitation services, promoting healthier, drug-free communities.</p>
        
       </div>
 
@@ -132,7 +132,7 @@ const About = () => {
 
     <div className="container mx-auto p-4 ">
       <section className="flex justify-center items-center shadow p-4 mb-8">
-        <div className="relative w-full max-w-6xl bg-white p-8 rounded-lg shadow-lg shadow-green-600">
+        <div className="relative w-full max-w-6xl bg-white p-8 rounded-lg shadow-lg">
           <div className="absolute top-0 left-0 w-full h-full bg-transparent"></div>
           <div className="flex flex-col items-center">
             <h3 className="text-lg font-semibold mb-2 text-green-700">we walk the walk</h3>
@@ -199,7 +199,7 @@ const About = () => {
         </div>
 
         {/* Middle Column */}
-        <div className="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+        <div className="w-full md:w-1/3 px-4 mb-8 md:mb-0 shadow-lg">
           <div className="relative overflow-hidden" style={{ paddingTop: '56.25%' }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full"

@@ -18,7 +18,7 @@ const Contact = () => {
     </div>
 
       <h1 className='font-extrabold text-5xl p-3'>Contact Us</h1>
-      <p className='p-3 w-[70%] text-center'>At [Anti-Drug Agency Name], we are committed to fighting drug addiction and supporting individuals on their journey to recovery. Our team of dedicated professionals is here to help you with any inquiries, provide assistance, and offer guidance."</p>
+      <p className='p-3 md-w-[70%] text-center'>Reach out to us for support, resources, or more information about our drug addiction prevention and treatment services."</p>
      </div>
 
 

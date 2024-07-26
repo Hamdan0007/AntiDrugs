@@ -25,11 +25,14 @@ const Gallery = () => {
     <div className='font-family!'>
 
     <div className='border bg-green-600 text-white text-center p-6 justify-center items-center flex flex-col'>
+    <div className="slim-line bg-white h-4 rounded-lg flex justify-center items-center">
+    <div className="slim-line bg-green-600 h-4 rounded-lg">
+      </div>
     
-    
+      </div>
 
       <h1 className='font-extrabold text-5xl p-3'>Gallery</h1>
-      <p className='p-3 w-[70%]'>Dedicated to combating drug addiction, our agency provides comprehensive prevention, treatment, and rehabilitation services to foster healthier, drug-free communities."</p>
+      <p className='p-3 md-w-[70%]'>Our gallery showcases impactful images highlighting our efforts and achievements in combating drug addiction.</p>
      </div>
 
 
