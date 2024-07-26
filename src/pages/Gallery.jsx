@@ -37,7 +37,7 @@ const Gallery = () => {
 
 
      <div className="container mx-auto py-8 flex justify-center">
-      <div className="grid grid-cols-1 w-[80%]  md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+      <div className="grid grid-cols-1 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {images.map((src, index) => (
           <div key={index} className="relative overflow-hidden">
             <a href={src} target="_blank" rel="noopener noreferrer">
