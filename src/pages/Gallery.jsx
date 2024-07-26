@@ -33,8 +33,6 @@ const Gallery = () => {
      </div>
 
 
-
-
      <div className="container mx-auto py-8 flex justify-center">
       <div className="grid grid-cols-1 w-[80%]  md:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {images.map((src, index) => (
