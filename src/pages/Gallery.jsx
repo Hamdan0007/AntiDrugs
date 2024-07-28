@@ -27,8 +27,11 @@ const Gallery = () => {
     <div className='border background-Gallery text-white text-center py-16 justify-center items-center flex flex-col'>
    
 
+    <div className='bg-slate-950 w-full opacity-70'>
+     
       <h1 className='font-extrabold text-5xl p-3'>Gallery</h1>
       <p className='p-3 md-w-[70%]'>Our gallery showcases impactful images highlighting our efforts and achievements in combating drug addiction.</p>
+     </div>
      </div>
 
 

@@ -13,11 +13,14 @@ const Contact = () => {
 
     <div className='border background-ContactUs text-white text-center py-16 justify-center items-center flex flex-col'>
     
-
+    <div className='bg-slate-950 w-full opacity-70'>
+      
       <h1 className='font-extrabold text-5xl p-3'>Contact Us</h1>
       <p className='p-3 md-w-[70%] text-center'>Reach out to us for support, resources, or more information about our drug addiction prevention and treatment services."</p>
      </div>
 
+
+     </div>
 
 <div>
 

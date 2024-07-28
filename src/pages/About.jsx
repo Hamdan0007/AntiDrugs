@@ -15,26 +15,28 @@ const About = () => {
       <div className='body-font'>
 
       <div className='border background-AboutUs text-white text-center py-16 justify-center items-center flex flex-col'>
-     
-
+    
+      <div className='bg-slate-950 w-full opacity-70'>
      
      <h1 className='font-extrabold text-5xl p-3'>About Us</h1>
         <p className='p-3 md-w-[70%] text-center'>Our agency is committed to fighting drug addiction with prevention, treatment, and rehabilitation services, promoting healthier, drug-free communities.</p>
        
+      
+     </div>
       </div>
 
 
 
-       <div className=" py-12 flex justify-center items-center ">
+       <div className=" py-12 flex justify-center items-center">
       
          
             <section className="container mx-auto text-justify">
-             <div className='flex'>
+             <div className='flex justify-center items-center'>
            
            <div className='w-[50%]'>
            <p>
                 The AntiDrug Agency is a charitable, not-for-profit organization established to provide services to the most marginalized and vulnerable groups in society, including drug users, persons at risk of or infected by HIV/AIDS, prison inmates, juvenile offenders, minor children in detention with female prisoners, street children, women and children in crisis, refugees, victims of war and disasters. All these groups are mostly poor and lack the resources to live normal lives. Poverty reduces them to a state of marginalization and deprivation in all those conditions which contribute to the quality of human life e.g. health, education, justice, safety, security, housing, employment, and credit.
-                The AntiDrug Agency reaches out to these unfortunate, miserable, and stigmatized individuals living in difficult and inhuman conditions, through a process of awareness, primary prevention, rehabilitation, and social development, and ensures their well-being and recovery. The Agency's services are Rights-based and Needs-based and include a comprehensive range of activities that cater to the physical, psychological, social, spiritual, and financial needs of clients and their families. The Agency provides quality services through its large service delivery network and comprehensive awareness programs extending all over the country. The Agency’s programs are intended to stimulate and facilitate positive change, with a significant impact and long-lasting effects. The Agency's strategies are aimed at individuals, families, and communities in a spirit of self-help, community support, and participation.
+                The AntiDrug Agency reaches out to these unfortunate, miserable, and stigmatized individuals living in difficult and inhuman conditions, through a process of awareness, primary prevention, rehabilitation, and social development, and ensures their well-being and recovery. 
              </p>
             </div>
            
@@ -46,7 +48,7 @@ const About = () => {
 
              </div>
 
-           <div className='flex py-16'>
+           <div className='flex py-16 justify-center items-center'>
           
               
             <div className="w-full md:w-[50%] flex justify-center">
@@ -60,7 +62,6 @@ const About = () => {
             <div className='w-[50%] px-2'>
             <p >
                 At the time of the Agency’s establishment, drug abuse problems were increasing progressively due to the easy availability of cheap drugs smuggled across borders. A combination of geo-political, social, and economic factors contributed to the escalation of drug-related issues, crime, social disorder, injustice, poverty, and human rights abuses. A shift in the traditional modes of drug use from inhaling and smoking to injecting has added to the risk of HIV/AIDS, STIs, Hepatitis B/C among drug users and other vulnerable groups. Since there were hardly any treatment facilities in existence to cater to the affected population, the founding members were motivated to set up the Agency’s drug addiction treatment programs. The pioneering role of the Agency is now recognized nationally as well as internationally.
-                The scope of our services comprises primary prevention, early intervention, treatment, rehabilitation, reintegration, aftercare, and follow-up. These services are provided in different locations and settings such as streets, prisons, homes, refugee camps, mobile camps, drop-in centers, out-patient, and residential facilities.
               
              </p>
             </div>
@@ -74,11 +75,11 @@ const About = () => {
 
 
   <section
-      className="bg-green-700"
+      className="bg-green-700 p-12"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="w-full h-auto md:w-2/5 flex justify-center">
-          <img src='inspire.jpg'   alt="Inspiration Image" />
+          <img src='inspire.jpg'  alt="Inspiration Image" />
         </div>
         
         <div className="w-full md:w-3/5 text-white p-4">
