@@ -17,12 +17,8 @@ const Donate = () => {
 
     <div className='w-full font-family!'>
 
-       <div className=' border bg-green-600 text-white text-center p-11 justify-center items-center flex flex-col'>
-       <div className="slim-line bg-white h-4 rounded-lg flex justify-center items-center">
-    <div className="slim-line bg-green-600 h-4 rounded-lg">
-      </div>
-
-      </div>
+       <div className=' border text-white text-center p-16 justify-center items-center flex flex-col background-Donation'  > 
+    
         <h1 className='font-extrabold text-5xl p-3'>Donation</h1>
         <p >Giving is not just about making a donation. It’s about making a difference."</p>
        </div>
@@ -31,8 +27,8 @@ const Donate = () => {
         <div className='flex justify-between items-center w-full pt-16 '>
             <div className='flex justify-center flex-col pl-7'>
 
-              <h3 className='text-center font-bold text-xl mb-6 text-green-700'>For Charities and Donations to DOST</h3>
-<ul className='pl-4 space-y-3' >
+              <h3 className='text-center font-bold text-2xl mb-6 text-green-700'>For Charities and Donations to DOST</h3>
+<ul className=' space-y-3' >
 <li><em>&nbsp;</em><strong className='text-green-700'>Bank:</strong> Habib Bank Limited</li>
 <li><strong className='text-green-700'>Address:</strong>&nbsp;Sector B-1, Phase V Hayatabad Peshawar Branch</li>
 <li><strong className='text-green-700'>Account Number: </strong>1113-00045819-01</li>
@@ -45,8 +41,8 @@ const Donate = () => {
 </ul>
               </div>
             
-        <div className='h-[400px] shadow-xl mr-7 w-[40%] flex justify-center items-center'>      
-             <img src="" alt="Donation" />
+        <div className=' mr-7 w-[40%] flex justify-center items-center'>      
+             <img src="https://cdn5.vectorstock.com/i/1000x1000/40/44/donation-blue-modern-line-horizontal-banner-vector-20664044.jpg" alt="Donation" className='rounded-sm'  />
 
             </div>
        </div>
