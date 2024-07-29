@@ -14,9 +14,9 @@ const About = () => {
       
       <div className='body-font'>
 
-      <div className='border background-AboutUs text-white text-center py-16 justify-center items-center flex flex-col'>
+      <div className='border background-AboutUs text-white text-center justify-center items-center flex flex-col'>
     
-      <div className='bg-slate-950 w-full opacity-70'>
+      <div className='bg-green-950 w-full opacity-70 p-16 '>
      
      <h1 className='font-extrabold text-5xl p-3'>About Us</h1>
         <p className='p-3 md-w-[70%] text-center'>Our agency is committed to fighting drug addiction with prevention, treatment, and rehabilitation services, promoting healthier, drug-free communities.</p>
@@ -78,7 +78,7 @@ const About = () => {
       className="bg-green-700 p-12"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="w-full h-auto md:w-2/5 flex justify-center">
+        <div className="w-full h-auto md:w-2/5  flex justify-center">
           <img src='inspire.jpg'  alt="Inspiration Image" />
         </div>
         

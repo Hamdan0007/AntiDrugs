@@ -17,10 +17,9 @@ const Donate = () => {
 
     <div className='w-full font-family! py-10'>
 
-       <div className=' border text-white text-center p-16 justify-center items-center flex flex-col background-Donation '  > 
+       <div className=' border text-white text-center justify-center items-center flex flex-col background-Donation '  > 
     
-     
-       <div className='bg-slate-950 w-full opacity-70'>
+       <div className='bg-green-950 w-full opacity-70 p-16 '>
       
 
         <h1 className='font-extrabold text-5xl p-3'>Donation</h1>
