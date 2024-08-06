@@ -16,7 +16,7 @@
   }  
 
   .background-Gallery {
-    background-image: url('https://media.cnn.com/api/v1/images/stellar/prod/221222102501-01-olympic-artistic-swimming.jpg?c=16x9&q=h_833,w_1480,c_fill');
+    background-image: url("/Gallery.jpg");
     background-size: cover; /* to cover the entire area of the div */
     background-position: center; /* to center the image in the div */
   }  
