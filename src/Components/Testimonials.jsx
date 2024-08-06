@@ -14,7 +14,7 @@ const Testimonials = () => {
   const [_, setInit] = useState();
 
   return (
-    <section className="bg-[#045a0f]">
+    <section className="bg-[#353980]">
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-2xl font-semibold text-center capitalize lg:text-3xl text-white">
       What clients saying
