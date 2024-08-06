@@ -6,15 +6,20 @@ import '../App'; // Import the CSS file
 const Gallery = () => {
   
   
-  const images = [
+  const images = [  '/About1.jpeg',
+  
+  '/chairman.jpeg','/About_main.jpeg',
+  '/About2.jpeg',
+  '/chairman1.jpeg',
     'https://dostfoundation.org/wp-content/uploads/2022/09/2-3.jpg',
     'https://dostfoundation.org/wp-content/uploads/2022/09/3-2.jpg',
     'https://dostfoundation.org/wp-content/uploads/2022/09/4-2.jpg',
     'https://dostfoundation.org/wp-content/uploads/2022/09/5-2.jpg',
     'https://dostfoundation.org/wp-content/uploads/2022/09/1-2.jpg',
-    'https://dostfoundation.org/wp-content/uploads/2022/09/5-3.jpg'
-  ];
+    'https://dostfoundation.org/wp-content/uploads/2022/09/5-3.jpg',
   
+    
+  ];
   
   
   return (
@@ -26,15 +31,19 @@ const Gallery = () => {
 
     <div className='border background-Gallery text-white text-center justify-center items-center flex flex-col'>
    
-    <div className='bg-green-950 w-full opacity-70 p-16 '>
+    <div className='bg-green-950 w-full opacity-70 p-20 '>
       <h1 className='font-extrabold text-5xl p-3'>Gallery</h1>
       <p className='p-3 md-w-[70%]'>Our gallery showcases impactful images highlighting our efforts and achievements in combating drug addiction.</p>
      </div>
      </div>
 
 
+
+
+
      <div className="container mx-auto py-8 flex justify-center">
       <div className="grid grid-cols-1 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        
         {images.map((src, index) => (
           <div key={index} className="relative overflow-hidden">
             <a href={src} target="_blank" rel="noopener noreferrer">
