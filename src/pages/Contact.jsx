@@ -2,17 +2,20 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import '../App'; // Import the CSS file
 import Footer from '../Components/Footer';
+import MobileNavbar from '../Components/MobileNavbar';
 
 const Contact = () => {
   return (
     <>
       
     <Navbar/>
+    <MobileNavbar/>
+
     
     <div className='font-family!'>
 
     <div className='border background-ContactUs text-white text-center justify-center items-center flex flex-col'>
-    <div className='bg-green-950 w-full opacity-70 p-20 '>
+    <div className='bg-[#353980] w-full opacity-70 p-20 '>
       
       <h1 className='font-extrabold text-5xl p-3'>Contact Us</h1>
       <p className='p-3 md-w-[70%] text-center'>Reach out to us for support, resources, or more information about our drug addiction prevention and treatment services."</p>
@@ -26,7 +29,7 @@ const Contact = () => {
 <section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-      <iframe width="100%" height="100%" className="absolute inset-0" style={{filter: 'yellowscale(1) contrast(1.2) opacity(0.4)'}}  title="map"  src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" />
+      <iframe width="100%" height="100%" className="absolute inset-0" style={{filter: 'yellowscale(0.5) contrast(1.2) opacity(0.4)'}}  title="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106390.41357584005!2d71.46753260000001!3d33.56115905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d8ef13ac5af415%3A0x864572b0758eb834!2sKohat%2C%20Khyber%20Pakhtunkhwa!5e0!3m2!1sen!2s!4v1722961788868!5m2!1sen!2s" />
       <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
         <div className="lg:w-1/2 px-6">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
@@ -56,7 +59,7 @@ const Contact = () => {
         <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" defaultValue={""} />
       </div>
-      <button className="text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded text-lg">Button</button>
+      <button className="text-white bg-[#353980] border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded text-lg">Button</button>
      </div>
   </div>
 </section>

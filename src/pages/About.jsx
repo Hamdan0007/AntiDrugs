@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import '../App'; // Import the CSS file
-import StripRating from '../Components/StripRating';
+import '../App.css'; // Import the CSS file
+// import StripRating from '../Components/StripRating';
+import MobileNavbar from '../Components/MobileNavbar';
 
 const About = () => {
 
@@ -10,12 +11,13 @@ const About = () => {
       <>
       
       <Navbar/>
+        <MobileNavbar/>
       
       <div className='body-font'>
 
       <div className='border background-AboutUs text-white text-center justify-center items-center flex flex-col'>
     
-      <div className='bg-green-950 w-full opacity-70 p-20 '>
+      <div className='bg-[#353980] w-full opacity-70 p-20 '>
      
      <h1 className='font-extrabold text-5xl p-3'>About Us</h1>
         <p className='p-3 md-w-[70%] text-center'>Our agency is committed to fighting drug addiction with prevention, treatment, and rehabilitation services, promoting healthier, drug-free communities.</p>
@@ -68,7 +70,7 @@ The scope of our services comprise of primary prevention, early intervention, tr
 
 
             
-    <section class="bg-green-700 p-12 text-white">
+    <section class="bg-[#353980] p-12 text-white">
     <div class="container px-6 py-10 mx-auto">
         <div class="lg:-mx-6 lg:flex lg:items-center">
             <img class="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="/About_main.jpeg" alt="" />
@@ -94,13 +96,11 @@ The scope of our services comprise of primary prevention, early intervention, tr
         
 
 
-
-
     <section className="relative flex justify-center flex-col bg-gray-100 items-center py-8 px-4">
          <div className="container mx-auto">
         <div className="flex flex-col items-center text-center  p-8 rounded-lg">
-          <h3 className="text-lg font-semibold mb-2 text-green-700">Helping Others Find Recovery</h3>
-          <h2 className="text-2xl font-bold mb-4 text-green-700">
+          <h3 className="text-lg font-semibold mb-2 text-[#353980]">Helping Others Find Recovery</h3>
+          <h2 className="text-2xl font-bold mb-4 ">
 ORGANIZATION'S VISION:
 </h2>
           <p className="mb-6">
@@ -114,17 +114,13 @@ ORGANIZATION'S VISION:
 
 
 
-
-
-
-
    
     </section>
     <section class=" body-font">
   <div class="container mx-auto flex ">
      <div className="flex flex-col bg-white p-8 rounded-lg w-2/4">
           
-          <h2 className="text-2xl font-bold mb-4 text-green-700">ORGANIZATION MISSION</h2>
+          <h2 className="text-2xl font-bold mb-4">ORGANIZATION MISSION</h2>
           <p className="mb-6">
            
 ZINDAGI WELFARE ORGANIZATION Programmes are Rights Based and Needs Based and fall in Six main thematic areas, which are multidimensional, multipronged, multifaceted and holistic. All the themes are also cross cutting. They have been developed keeping in view the needs and rights of clients and encompass a diverse range of services and activities.

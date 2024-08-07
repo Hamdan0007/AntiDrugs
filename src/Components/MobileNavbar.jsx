@@ -42,19 +42,22 @@ return (
 
       <ul onClick={toggleDrawer} className="space-y-8 font-bold text-left text-xl flex flex-col">
         <li>
-        <a href="/#" className="mr-9 font-bold hover:text-[#2940D3] text-black">Home</a>
+        <a href="/" className="mr-9 font-bold hover:text-[#2940D3] text-black">Home</a>
         </li>
         <li>
-        <a href="/#about" className="mr-9 font-bold hover:text-[#2940D3] text-black">About</a>
+        <a href="/about" className="mr-9 font-bold hover:text-[#2940D3] text-black">About</a>
         </li>
+          
         <li>
-        <a href="/#features" className="mr-9 font-bold hover:text-[#2940D3] text-black">Donate</a>
+        <a href="/gallery" className="mr-9 font-bold hover:text-[#2940D3] text-black">Gallery</a>
         </li>
+       <li>
+        <a href="/donate" className="mr-9 font-bold hover:text-[#2940D3] text-black">Donate</a>
+        </li>
+       
         <li>
-        <a href="/#contact" className="mr-9 font-bold hover:text-[#2940D3] text-black">Contact</a>
+        <a href="/contact" className="mr-9 font-bold hover:text-[#2940D3] text-black">Contact</a>
         </li>
-        
-      
       </ul>
     </div>
       <div className='relative bottom-0'>
