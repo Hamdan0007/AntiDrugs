@@ -43,52 +43,17 @@ const Testimonials = () => {
       
       <SwiperSlide>
         <p className="flex items-center text-center text-white lg:mx-8">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quam. Odio voluptatem officiis
-          eos illo! Pariatur, totam alias. Beatae accusamus earum quos obcaecati minima molestias. Possimus
-          minima dolores itaque! Esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates
-          fugiat corrupti laudantium dolores reiciendis pariatur esse quod nihil quia cupiditate debitis
-          quisquam nemo, accusamus animi explicabo? Architecto, unde laboriosam?
+        Hi, my name is Dilawar Khan and I am from Kohat. Coming to Zindagi Welfare Organization was a life-changing experience for me. The comprehensive and compassionate care I received helped me break free from the chains of drug addiction. The staff was incredibly supportive, offering both medical and emotional support that was crucial to my recovery. The structured programs, combined with personalized therapy sessions, provided me with the tools and resilience I needed to rebuild my life. Today, I am proud to say that I am drug-free and have a renewed sense of purpose, all thanks to the unwavering dedication and expertise of the team at Zindagi Welfare Organization.
         </p>
         <div className="flex flex-col items-center justify-center mt-8">
-          <img className="object-cover rounded-full w-14 h-14" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt />
+          {/* <img className="object-cover rounded-full w-14 h-14" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt /> */}
           <div className="mt-4 text-center">
-            <h1 className="font-semibold text-white">Mia Brown</h1>
-            <span className="text-sm text-white ">Marketer</span>
+            <h1 className="font-semibold text-white">Dilawar Khan</h1>
+            {/* <span className="text-sm text-white ">Marketer</span> */}
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide>
-        <p className="flex items-center text-center text-white lg:mx-8">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quam. Odio voluptatem officiis
-          eos illo! Pariatur, totam alias. Beatae accusamus earum quos obcaecati minima molestias. Possimus
-          minima dolores itaque! Esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates
-          fugiat corrupti laudantium dolores reiciendis pariatur esse quod nihil quia cupiditate debitis
-          quisquam nemo, accusamus animi explicabo? Architecto, unde laboriosam?
-        </p>
-        <div className="flex flex-col items-center justify-center mt-8">
-          <img className="object-cover rounded-full w-14 h-14" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt />
-          <div className="mt-4 text-center">
-            <h1 className="font-semibold text-white">Mia Brown</h1>
-            <span className="text-sm text-white ">Marketer</span>
-          </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <p className="flex items-center text-center text-white lg:mx-8">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quam. Odio voluptatem officiis
-          eos illo! Pariatur, totam alias. Beatae accusamus earum quos obcaecati minima molestias. Possimus
-          minima dolores itaque! Esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates
-          fugiat corrupti laudantium dolores reiciendis pariatur esse quod nihil quia cupiditate debitis
-          quisquam nemo, accusamus animi explicabo? Architecto, unde laboriosam?
-        </p>
-        <div className="flex flex-col items-center justify-center mt-8">
-          <img className="object-cover rounded-full w-14 h-14" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt />
-          <div className="mt-4 text-center">
-            <h1 className="font-semibold text-white">Mia hello</h1>
-            <span className="text-sm text-white ">Marketer</span>
-          </div>
-        </div>
-      </SwiperSlide>
+     
       </Swiper>
      
       <button ref={nextRef} title="right arrow" className="hidden p-2 transition-colors duration-300 border rounded-full rtl:-scale-x-100 border-gray-700 text-gray-200 lg:block hover:bg-gray-100">

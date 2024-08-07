@@ -4,8 +4,8 @@ const StripRating = () => {
   return (
     <div className="text-gray-100  body-font h-200 " >
     
-  <div className="container bg-[#353980] rounded-md -mt-20 w-4/5 px-5 py-12 mx-auto">
-    <div className="grid grid-cols-3 -m-4 text-center">
+  <div className="container bg-[#353980] md:rounded-md md:-mt-20 md:w-4/5 px-5 py-12 mx-auto">
+    <div className="grid grid-cols-3 -m-4 text-center divide-x-2">
       {/* <div className="p-4 sm:w-1/4 w-1/2"  data-aos-easing="linear"
      data-aos-duration="500" data-aos="flip-down">
      

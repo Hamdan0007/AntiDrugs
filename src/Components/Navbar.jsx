@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
 
     
-    <header className="text-gray-600 bg-gray-00 body-font">
+    <header className="text-gray-600 bg-gray-00 body-font md:block hidden">
   <div className="container mx-auto flex flex-wrap px-5 py-2 flex-col md:flex-row items-center">
     <Link to="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <img src="/logo.png" className='w-24' />
@@ -18,7 +18,7 @@ const Navbar = () => {
       <Link to="/about">About Us</Link>
       <Link to="/gallery">Gallery</Link>
       <Link to="/contact">Contact us</Link>
-      <Link className="mr-5 hover:text-gray-900">More Page</Link>
+      {/* <Link className="mr-5 hover:text-gray-900">More Page</Link> */}
       
     </nav>
     <Link to ='/donate'><button className="inline-flex items-center bg-[#353980] text-white border-0 py-2 px-5 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Donate

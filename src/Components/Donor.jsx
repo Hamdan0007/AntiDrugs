@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Brands = () => {
+const Donor = () => {
       
   return (
    <section className="bg-[#F3F5F6]">
@@ -41,4 +41,4 @@ const Brands = () => {
   )
 }
 
-export default Brands
+export default Donor

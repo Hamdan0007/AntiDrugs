@@ -1,6 +1,7 @@
 import '../App.css'
-import Brands from '../Components/Brands'
+// import Donor from '../Components/Donor'
 import Footer from '../Components/Footer'
+import MobileNavbar from '../Components/MobileNavbar'
 import Navbar from '../Components/Navbar'
 import StripRating from '../Components/StripRating'
 import Testimonials from '../Components/Testimonials'
@@ -10,6 +11,7 @@ function Home() {
   return (
     <>
         <Navbar /> 
+        <MobileNavbar/>
         <section className="text-white body-font bg-no-repeat bg-cover bg-center" style={{backgroundImage:'URL("/bg.png")'}}>
         <div className='bg-[#00000090] '>
 
@@ -50,7 +52,7 @@ A combination of economic, social and political factors in the region contribute
 
 <Testimonials/>
 
-<Brands/>
+{/* <Donor/> */}
 
 
 
