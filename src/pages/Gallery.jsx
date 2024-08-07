@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import '../App'; // Import the CSS file
+import MobileNavbar from '../Components/MobileNavbar';
 
 const Gallery = () => {
   
@@ -26,19 +27,17 @@ const Gallery = () => {
     <>
       
     <Navbar/>
+    <MobileNavbar/>
     
     <div className='font-family!'>
 
     <div className='border background-Gallery text-white text-center justify-center items-center flex flex-col'>
    
-    <div className='bg-green-950 w-full opacity-70 p-20 '>
+    <div className='bg-[#353980] w-full opacity-70 p-20 '>
       <h1 className='font-extrabold text-5xl p-3'>Gallery</h1>
       <p className='p-3 md-w-[70%]'>Our gallery showcases impactful images highlighting our efforts and achievements in combating drug addiction.</p>
      </div>
      </div>
-
-
-
 
 
      <div className="container mx-auto py-8 flex justify-center">
