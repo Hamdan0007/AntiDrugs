@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React,{useState} from 'react'
 import Drawer from 'react-modern-drawer'
 
@@ -12,12 +11,12 @@ const MobileNavbar = ({event}) => {
     }
 return (
   <header className='md:hidden block'>
-    <div className="flex items-center justify-between px-4 py-8 sticky top-0 z-40">
+    <div className="flex items-center justify-between px-4 py-2 -mb-2 sticky top-0 z-40">
       <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-4">
-        <Link href="/" className="text-black font-bold text-xl w-24">
+        <a href="/" className="text-black font-bold text-xl w-24">
           <img src='/logo.png' alt='logo' />
         
-        </Link>
+        </a>
         <div className="block lg:hidden text-[black]">
           <button onClick={toggleDrawer} className="flex items-center px-3 py-2 rounded border-black hover:text-black text-black hover:border-red-600">
             <svg className="fill-current h-6 w-6 text-black" fill='currentColor' viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -43,16 +42,16 @@ return (
 
       <ul onClick={toggleDrawer} className="space-y-8 font-bold text-left text-xl flex flex-col">
         <li>
-        <Link href="/#" className="mr-9 font-bold hover:text-[#2940D3] text-black">Home</Link>
+        <a href="/#" className="mr-9 font-bold hover:text-[#2940D3] text-black">Home</a>
         </li>
         <li>
-        <Link href="/#about" className="mr-9 font-bold hover:text-[#2940D3] text-black">About</Link>
+        <a href="/#about" className="mr-9 font-bold hover:text-[#2940D3] text-black">About</a>
         </li>
         <li>
-        <Link href="/#features" className="mr-9 font-bold hover:text-[#2940D3] text-black">Features</Link>
+        <a href="/#features" className="mr-9 font-bold hover:text-[#2940D3] text-black">Donate</a>
         </li>
         <li>
-        <Link href="/#contact" className="mr-9 font-bold hover:text-[#2940D3] text-black">Contact</Link>
+        <a href="/#contact" className="mr-9 font-bold hover:text-[#2940D3] text-black">Contact</a>
         </li>
         
       
@@ -60,14 +59,14 @@ return (
     </div>
       <div className='relative bottom-0'>
 
-      <Link href="/contact" className="md:inline-flex text-md font-extrabold text-black items-center hover:bg-white border-0 py-2 px-3 focus:outline-none bg-blackBtn rounded mt-4 md:mt-0 hidden">Contact Us
+      <a href="/contact" className="md:inline-flex text-md font-extrabold text-black items-center hover:bg-white border-0 py-2 px-3 focus:outline-none bg-blackBtn rounded mt-4 md:mt-0 hidden">Contact Us
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
                             strokeWidth={2}
                             className="w-4 h-4 ml-1"
                             viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
-                    </Link>
+                    </a>
       </div>
   </div>
   </Drawer>

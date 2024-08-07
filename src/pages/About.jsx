@@ -149,9 +149,6 @@ ZINDAGI WELFARE ORGANIZATION Programmes are Rights Based and Needs Based and fal
 </section>
     
 
- 
-   <StripRating/>
-
    
 
    
