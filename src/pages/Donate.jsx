@@ -17,49 +17,47 @@ const Donate = () => {
 
     <div className='w-full font-family!'>
 
-       <div className=' border bg-green-600 text-white text-center p-11 justify-center items-center flex flex-col'>
-       <div className="slim-line bg-white h-4 rounded-lg flex justify-center items-center">
-    <div className="slim-line bg-green-600 h-4 rounded-lg">
-      </div>
+       <div className=' border text-white text-center justify-center items-center flex flex-col background-Donation '  > 
+    
+       <div className='bg-green-950 w-full opacity-70 p-20 '>
+      
 
-      </div>
         <h1 className='font-extrabold text-5xl p-3'>Donation</h1>
         <p >Giving is not just about making a donation. It’s about making a difference."</p>
        </div>
+       </div>
 
 
-        <div className='flex justify-between items-center w-full pt-16 '>
+        <div className='flex justify-between flex-col md:flex-row items-center w-full pt-16 '>
             <div className='flex justify-center flex-col pl-7'>
 
-              <h3 className='text-center font-bold text-xl mb-6 text-green-700'>For Charities and Donations to DOST</h3>
-<ul className='pl-4 space-y-3' >
-<li><em>&nbsp;</em><strong className='text-green-700'>Bank:</strong> Habib Bank Limited</li>
-<li><strong className='text-green-700'>Address:</strong>&nbsp;Sector B-1, Phase V Hayatabad Peshawar Branch</li>
-<li><strong className='text-green-700'>Account Number: </strong>1113-00045819-01</li>
-<li><strong className='text-green-700'>Title of account:</strong> DOST WELFARE FOUNDATION</li>
-<li><strong className='text-green-700'>Swift Code: </strong>HABBPKKA</li>
-<li><strong className='text-green-700'>IBAN Code:</strong>&nbsp;PK32HABB0011130004581901</li>
-<li><strong className='text-green-700'>Branch Code:</strong>&nbsp;1113</li>
-<li><strong className='text-green-700'>Telephone: </strong>+92-91-5823152</li>
+              <h3 className='font-bold text-4xl mb-6 text-green-700'>For Donations to Zindagi Welfare Organization</h3>
+<ul className=' space-y-3 text-lg' >
+<li><strong className='text-green-700'>Bank:</strong>ABL Allied Bank limited</li>
+<li><strong className='text-green-700'>Branch Address: </strong>SHOP # T-488, MAIN BAZAR KOHAT.</li>
+
+<li><strong className='text-green-700'>Account Number: </strong>0010065299830011</li>
+<li><strong className='text-green-700'>Tittle of Account:</strong>Farid Ullah</li>
+<li><strong className='text-green-700'>Branch Code:</strong> 185</li>
+<li><strong className='text-green-700'>ABL Branch Phone number:  </strong> 0922-518709</li>
 
 </ul>
               </div>
             
-        <div className='h-[400px] shadow-xl mr-7 w-[40%] flex justify-center items-center'>      
-             <img src="" alt="Donation" />
+        <div className=' mr-7 w-[40%] flex justify-center items-center pt-10 md:pt-0'>      
+             <img src="/Welfare-Tree.jpg" alt="Donation" className='rounded-sm'  />
 
             </div>
        </div>
 
     </div>
-<div className='pt-3'>
+<div className='py-10'>
 
   <Footer/>
 
 </div>
 
 </>
-  
   
     )
 }
