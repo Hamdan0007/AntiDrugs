@@ -33,13 +33,14 @@ const Donate = () => {
 
               <h3 className='font-bold text-4xl mb-6 text-green-700'>For Donations to Zindagi Welfare Organization</h3>
 <ul className=' space-y-3 text-lg' >
-<li><strong className='text-green-700'>Bank:</strong>ABL Allied Bank limited</li>
-<li><strong className='text-green-700'>Branch Address: </strong>SHOP # T-488, MAIN BAZAR KOHAT.</li>
-
-<li><strong className='text-green-700'>Account Number: </strong>0010065299830011</li>
-<li><strong className='text-green-700'>Tittle of Account:</strong>Farid Ullah</li>
-<li><strong className='text-green-700'>Branch Code:</strong> 185</li>
-<li><strong className='text-green-700'>ABL Branch Phone number:  </strong> 0922-518709</li>
+<li><strong className='text-green-700'>Bank:</strong> Habib Bank Limited</li>
+<li><strong className='text-green-700'>Address:</strong>&nbsp;Sector B-1, Phase V Hayatabad Peshawar Branch</li>
+<li><strong className='text-green-700'>Account Number: </strong>1113-00045819-01</li>
+<li><strong className='text-green-700'>Title of account:</strong> Zindagi WELFARE FOUNDATION</li>
+<li><strong className='text-green-700'>Swift Code: </strong>HABBPKKA</li>
+<li><strong className='text-green-700'>IBAN Code:</strong>&nbsp;PK32HABB000930283920390</li>
+<li><strong className='text-green-700'>Branch Code:</strong>&nbsp;1113</li>
+<li><strong className='text-green-700'>Telephone: </strong>+92-093273872</li>
 
 </ul>
               </div>
