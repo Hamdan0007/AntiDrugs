@@ -30,7 +30,7 @@ const About = () => {
       <div className="py-12 flex justify-center items-center">
   <section className="container mx-auto text-justify ">
     <div className="flex flex-col md:flex-row ">
-      <div className="w-full md:w-4/6 mb-4 md:mb-0 pr-10 ">
+      <div className="w-full md:w-4/6 mb-4 md:mb-0 pr-10">
         <p>
         ZINDAGI Welfare Organization (ZWO) is a charitable, not-for-profit organization, for providing services to the most marginalized and vulnerable groups in society, including drug users, persons at-risk of or infected by HIV/AIDS, prison inmates, juvenile offenders, minor children in detention with female prisoners, street children, women and children in crisis, refugees, victims of war and disasters. All these groups are mostly poor and lack the resources to live normal lives. Poverty reduces them to a state of marginalization and deprivation in all those conditions which contribute them to human life e.g. health, education, justice, safety, security, employment and credit housing.
         </p>
