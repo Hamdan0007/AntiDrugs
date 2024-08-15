@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
 <>
     <div>
     <Navbar/>
-  <header className="bg-green-600 text-white p-4 py-24 text-center">
+  <header className="bg-[#353980] text-white p-4 py-24 text-center">
     <h1 className="text-3xl font-bold">ZINDAGI Welfare Organization (ZWO)</h1>
     <p className="text-xl">Privacy Policy</p>
   </header>
