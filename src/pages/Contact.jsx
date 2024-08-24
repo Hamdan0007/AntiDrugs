@@ -35,6 +35,7 @@ const Contact = () => {
           Contact us for more info
         </h1>
         <div className="mt-6 space-y-8 md:mt-8">
+        <h1 className="text-lg font-medium text-gray-700">ZINDAGI Welfare Organization (ZWO) empowers marginalized groups in Pakistan through comprehensive, rights-based services and community support.</h1>
           <p className="flex items-start -mx-2">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -63,7 +64,7 @@ const Contact = () => {
       </div>
       <div className="mt-8 lg:w-1/2 lg:mx-6">
         <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl  lg:max-w-xl shadow-gray-300/50 ">
-          <h1 className="text-lg font-medium text-gray-700">ZINDAGI Welfare Organization (ZWO) empowers marginalized groups in Pakistan through comprehensive, rights-based services and community support.</h1>
+          
           <form className="mt-6">
             <div className="flex-1">
               <label className="block mb-2 text-sm text-gray-900 ">Full Name</label>
@@ -92,7 +93,7 @@ const Contact = () => {
 
 <div className='h-96'>
       
-      <iframe width="100%" height="100%" className="" style={{filter: 'yellowscale(0.5) contrast(1.2) opacity(0.4)'}}  title="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106390.41357584005!2d71.46753260000001!3d33.56115905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d8ef13ac5af415%3A0x864572b0758eb834!2sKohat%2C%20Khyber%20Pakhtunkhwa!5e0!3m2!1sen!2s!4v1722961788868!5m2!1sen!2s" />
+      <iframe width="100%" height="100%" className="" style={{filter: 'yellowscale(0.5) contrast(1.2) opacity(0.4)'}}  title="map"  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d40606.54898695522!2d71.41321331613041!3d33.58176798716778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDMzJzMzLjgiTiA3McKwMjUnNDIuNiJF!5e0!3m2!1sen!2s!4v1724172670365!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
     
         </div>  
 
